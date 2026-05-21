@@ -84,3 +84,64 @@ def main():
 
 if __name__ == "__main__":
     main()
+.<div style="background-color:black; color:white; padding:20px;">
+
+# Sistema educativo lógico-social ascendente con glosario integrado
+
+## Autor: Francisco Antonio Bonilla Ramírez
+
+## Licencia: Apache 2.0
+
+Este proyecto busca centralizar la educación lógica-social en forma ascendente, con un glosario modular que sirva de guía para tutores y maestros.  
+El ritmo de aprendizaje no es único, sino secuencial y flexible, marcado por la interacción del niño o niña y la observación activa de docentes y padres.
+
+---
+
+## Glosario por etapas
+
+### Preescolar
+**Conceptos clave:** Patrón, Clasificación, Secuencia, Juego Lógico  
+**Objetivos:** Reconocer patrones, Desarrollar curiosidad lógica  
+**Observación:** El ritmo lo marca la interacción del niño
+
+### Primaria
+**Conceptos clave:** Causa-Efecto, Cooperación, Problema Simple  
+**Objetivos:** Resolver problemas básicos, Fomentar trabajo en equipo  
+**Observación:** El avance depende de la comprensión y colaboración grupal
+
+### Secundaria
+**Conceptos clave:** Razonamiento Crítico, Ética, Debate  
+**Objetivos:** Analizar dilemas sociales, Argumentar con lógica  
+**Observación:** El ritmo se ajusta a la madurez emocional y capacidad de análisis
+
+### Preparatoria
+**Conceptos clave:** Síntesis, Proyecto Social, Autonomía  
+**Objetivos:** Integrar lógica y ética, Liderar proyectos comunitarios  
+**Observación:** El ritmo depende de la autonomía y responsabilidad del estudiante
+
+---
+
+## Ejemplo de uso
+
+```python
+class GlosarioEducativo:
+    def __init__(self):
+        self.terminos = {
+            "Preescolar": {
+                "conceptos": ["Patrón", "Clasificación", "Secuencia", "Juego Lógico"],
+                "objetivos": ["Reconocer patrones", "Desarrollar curiosidad lógica"],
+                "observacion": "El ritmo lo marca la interacción del niño."
+            },
+            "Primaria": {
+                "conceptos": ["Causa-Efecto", "Cooperación", "Problema Simple"],
+                "objetivos": ["Resolver problemas básicos", "Fomentar trabajo en equipo"],
+                "observacion": "El avance depende de la comprensión y colaboración grupal."
+            },
+            "Secundaria": {
+                "conceptos": ["Razonamiento Crítico", "Ética", "Debate"],
+                "objetivos": ["Analizar dilemas sociales", "Argumentar con lógica"],
+                "observacion": "El ritmo se ajusta a la madurez emocional y capacidad de análisis."
+            },
+            "Preparatoria": {
+                "conceptos": ["Síntesis", "Proyecto Social", "Autonomía"],
+                "objetivos": ["Integrar lógica y ética", "Liderar proyectos comunitarios"],
